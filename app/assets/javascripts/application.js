@@ -9,8 +9,11 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+//se agrego esto----------------------- se tiene que precompilar en config/initializer/assets.rb
+//= require jquery
 //= require rails-ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//Se agrego esto ----------------- 
+//= require masonry/jquery.masonry
 //= require_tree .

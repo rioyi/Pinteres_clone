@@ -1,12 +1,11 @@
-
-<% @pins.each do |pin| %>
-  <div class="panel panel-dafault">
-    <div class="panel-body">
-      <img src="<%= pin.image_url %>" alt="<%= pin.title %>">
-      <h2><%= pin.title %></h2>
-      <p class="user">Publicado Por <%= pin.user.email  %></p>
+<div id="pins" class="transitions-enabled clearfix masonry">
+  <% @pins.each do |pin| %>
+    <div class="pin panel panel-dafault">
+      <div class="panel-body">
+        <img src="<%= pin.image_url %>" alt="<%= pin.title %>">
+        <h2><%= pin.title %></h2>
+        <p class="user">Publicado Por <%= pin.user.email  %></p>
+      </div>  
     </div>
-  
-  </div>
-
-<% end %>
+  <% end %>
+</div>

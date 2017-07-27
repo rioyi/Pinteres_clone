@@ -15,6 +15,9 @@ gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'jquery-rails', '~> 4.0', '>= 4.0.3'
+
+gem 'masonry-rails'
 #devise
 gem 'devise'
 gem "autoprefixer-rails"
