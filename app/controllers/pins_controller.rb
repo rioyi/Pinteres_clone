@@ -1,5 +1,5 @@
 class PinsController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user!, except: [:index]
   def index
     @pins = Pin.all
   end
